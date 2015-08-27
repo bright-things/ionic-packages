@@ -39,7 +39,7 @@ endef
 CONFIGURE_ARGS+= \
 	--disable-doc \
 	--disable-parport \
-	--enable-linuxgpio
+	--enable-linuxgpio \
 
 TARGET_CFLAGS+= \
 	-D_GNU_SOURCE \
